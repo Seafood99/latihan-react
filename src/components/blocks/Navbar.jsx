@@ -6,8 +6,9 @@ export default function Navbar() {
         <nav className="bg-white">
             <div className="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
                 <div className="flex items-center justify-between">
-                    <img src="src\assets\Gambar\logo.svg" alt="Neuverse" />
-
+                    <Link to="/">
+                        <img src="src\assets\Gambar\logo.svg" alt="Neuverse" />
+                    </Link>
                     <button className="text-gray-800 dark:text-white focus:outline-none md:hidden">
                         <svg className="h-6 w-6" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} viewBox="0 0 24 24" stroke="currentColor">
                             <path d="M4 6h16M4 12h16m-7 6h7" />
